@@ -242,6 +242,10 @@ section {
   height: 100vh;
   justify-content: center;
   align-items: center;
+  background-image: url('/assets/bg.png'); /* Path to your background image */
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the background image */
+  font-family: Arial, sans-serif; /* Optional: Setting font-family */
 }
 
 .hero-title {
@@ -505,4 +509,21 @@ section {
   color: transparent;
   -webkit-text-stroke: .6px #000; /* Border width and color */
   text-stroke: .6px #000; /* Border width and color */
+}
+
+.glass-container {
+  background: rgba(255, 255, 255, 0.15); /* Transparent white background */
+  backdrop-filter: blur(10px); /* Blur effect for glass */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); /* Box shadow for depth */
+  backdrop-filter: blur(8px); /* Blur effect for glass (adjust as needed) */
+  padding: 20px; /* Adjust padding as needed */
+}
+
+.glass-container-1 {
+  background: rgba(255, 255, 255, 0.15); /* Transparent white background */
+  backdrop-filter: blur(10px); /* Blur effect for glass */
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); /* Box shadow for depth */
+  backdrop-filter: blur(8px); /* Blur effect for glass (adjust as needed) */
+  padding: 20px; /* Adjust padding as needed */
 }
